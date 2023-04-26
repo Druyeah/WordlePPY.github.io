@@ -38,9 +38,11 @@ function intentar(){
             SPAN.innerHTML = INTENTO[i];
             SPAN.style.backgroundColor = '#a4aec4';
         }
+      
         ROW.appendChild(SPAN)
     }
     GRID.appendChild(ROW)
+    intentos--
 }
 
 // RETORNA PALABRAS INGRESADAS EN MAYUSCULAS
@@ -68,9 +70,3 @@ function terminar(mensaje){
 
 
 
-// window.addEventListener('load', init)
-// function init(){
-//     console.log('Esto se ejecuta solo cuando se carga la pagina web')
-// }
-// const input = document.getElementById("guess-input")
-// const valor = input.value
