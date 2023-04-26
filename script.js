@@ -1,8 +1,8 @@
 let intentos = 6;
-let dictionary = ["MESA", "PERRO", "GATO", "PLUMA", "TIGRE", "PIÑA", "TORRE", "PAZ", "HONGO", "LÁPIZ", "CAFÉ", "FLOR", "CABRA", "NUBE", "BUZÓN", "PLAYA", "CARRO", "GRANO", "HACHA", "TORSO", "PASTA", "SERIO", "PULPO", "NORTE", "PILAR", "RAYAS", "COMER", "DUCHA", "ZAPATO", "RUIDO", "BOTAS", "LLAMA", "DISCO", "CERDO", "BALSA", "TOROS", "BOCAS", "MARCO", "CARTA", "NOVIA", "CAMPO", "REGLA", "SELLO", "SILLA", "TRIGO", "VERBO", "LUCHA", "CEBRA", "CAJAS", "MONTE"];
+let dictionary = ["MESAS", "PERRO", "GATO", "PLUMA", "TIGRE", "PIÑAS", "TORRE", "PASES", "HONGO", "LÁPIZ", "CAFES", "FLOR", "CABRA", "NUBE", "BUZÓN", "PLAYA", "CARRO", "GRANO", "HACHA", "TORSO", "PASTA", "SERIO", "PULPO", "NORTE", "PILAR", "RAYAS", "COMER", "DUCHA", "ZAPATO", "RUIDO", "BOTAS", "LLAMA", "DISCO", "CERDO", "BALSA", "TOROS", "BOCAS", "MARCOS", "CARTA", "NOVIA", "CAMPO", "REGLA", "SELLO", "SILLA", "TRIGO", "VERBO", "LUCHA", "CEBRA", "CAJAS", "MONTE"];
 
 let palabra = dictionary[Math.floor(Math.random() * dictionary.length)]
-
+console.log(palabra)
 
 const button = document.getElementById("guess-button")
 button.addEventListener("click", intentar)
